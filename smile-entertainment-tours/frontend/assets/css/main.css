@@ -1,0 +1,28 @@
+:root {
+  --primary: #0f766e;
+  --secondary: #f59e0b;
+  --dark: #1f2937;
+  --light: #f9fafb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: var(--light);
+  color: var(--dark);
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+h1, h2, h3 {
+  margin-bottom: 10px;
+}
